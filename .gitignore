@@ -1,0 +1,8 @@
+# env file
+.env
+
+# virtual env
+venv
+
+# ignore sample files
+*.csv
