@@ -1,8 +1,14 @@
 # env file
-.env
+config_testing.py
 
 # virtual env
 venv
 
 # ignore sample files
 *.csv
+
+.DS_Store
+
+.idea/
+
+__pycache__/

@@ -20,9 +20,13 @@
    pip3 install -r requirements.txt
    ```
 
-4. Ensure the API is enabled and configured on the Secure Cloud Email and Web Manager dashboard. Instructions for enabling the API can be found [here](https://www.cisco.com/c/en/us/td/docs/security/security_management/sma/sma14-2/api_getting_started_guide/b_sma_api_guide_14_2/m_overview_of_sma_apis.html) under the `Enabling AsyncOS API` section (best practice is to use the management IP/port).
+4. Ensure the API is enabled and configured on the Secure Cloud Email and Web Manager dashboard.
 
-5. Rename the `.env_copy` file to `.env`, and add the API url and port configured in step 3. Add the credentials of a administrator, email administrator, cloud administrator, or operator account.
+    <br />**Note**: This may be enabled already by default with url: `<sma dashboard url>` and port: `4431`. Try this first before consulting the instructions.
+
+    <br />Instructions for enabling the API can be found [here](https://www.cisco.com/c/en/us/td/docs/security/security_management/sma/sma14-2/api_getting_started_guide/b_sma_api_guide_14_2/m_overview_of_sma_apis.html) under the `Enabling AsyncOS API` section (best practice is to use the management IP/port).
+
+5. In `config.py` add the sma url and port from step 4. Add the credentials of a administrator, email administrator, cloud administrator, or operator account.
     
     ``` python
     BASE_URL = "<url>" # Url
