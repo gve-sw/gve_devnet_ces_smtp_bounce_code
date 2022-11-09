@@ -1,4 +1,6 @@
-# gve_devnet_ces_smtp_bounce_code
+# CES SMTP Bounce Code Retrieval
+
+This script retrieves the SMTP code information for bounced emails reported by CES. The code is appended to existing reports, centralizing information for bounced emails at scale.
 
 ## Contacts
 * Trevor Maco
